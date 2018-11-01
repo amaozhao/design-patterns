@@ -1,0 +1,77 @@
+site_name: 设计模式
+theme:
+  # favicon: 'assets/images/favicon.ico'
+  include_search_page: false
+  search_index_only: true
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo:
+    icon: 'wb_sunny'
+  language: 'zh'
+  extra:
+    social:
+    - type: 'github'
+      link: 'https://github.com/amaozhao'
+    search:
+      language: 'en, zh'
+  name: 'material'
+nav:
+  - 首页: index.md
+  - 设计模式:
+    - 创建模式:
+      - 抽象工厂: creational-patterns/abstract-factory.md
+      - 生成器: creational-patterns/builder.md
+      - 工厂方法: creational-patterns/factory-method.md
+      - 对象池: creational-patterns/object-pool.md
+      - 原型: creational-patterns/prototype.md
+      - 单例: creational-patterns/singleton.md
+    - Structural patterns:
+      - 适配器: structural-patterns/adapter.md
+      - 桥接: structural-patterns/bridge.md
+      - 组合: structural-patterns/composite.md
+      - 装饰器: structural-patterns/decorator.md
+      - 外观: structural-patterns/facade.md
+      - 享元: structural-patterns/flyweight.md
+      - 私有数据: structural-patterns/private-class-data.md
+      - 代理: structural-patterns/proxy.md
+    - 行为模式:
+      - 责任链: behavioral-patterns/chain-of-responsibility.md
+      - 命令: behavioral-patterns/command.md
+      - 解释器: behavioral-patterns/interpreter.md
+      - 迭代器: behavioral-patterns/iterator.md
+      - 中介者: behavioral-patterns/mediator.md
+      - 备忘录: behavioral-patterns/memento.md
+      - 空对象: behavioral-patterns/null-object.md
+      - 观察者: behavioral-patterns/observer.md
+      - 状态: behavioral-patterns/state.md
+      - 策略: behavioral-patterns/strategy.md
+      - 模板方法: behavioral-patterns/template-method.md
+      - 访问者: behavioral-patterns/visitor.md
+  - 反模式: anti-patterns.md
+  - 重构: refactoring.md
+
+markdown_extensions:
+  - codehilite
+
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - 'assets/javascripts/extra.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
