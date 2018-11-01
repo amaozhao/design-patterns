@@ -22,14 +22,14 @@ theme:
 nav:
   - 首页: index.md
   - 设计模式:
-    - 创建模式:
+    - 创建型模式:
       - 抽象工厂: creational-patterns/abstract-factory.md
       - 生成器: creational-patterns/builder.md
       - 工厂方法: creational-patterns/factory-method.md
       - 对象池: creational-patterns/object-pool.md
       - 原型: creational-patterns/prototype.md
       - 单例: creational-patterns/singleton.md
-    - Structural patterns:
+    - 结构型模式:
       - 适配器: structural-patterns/adapter.md
       - 桥接: structural-patterns/bridge.md
       - 组合: structural-patterns/composite.md
@@ -38,7 +38,7 @@ nav:
       - 享元: structural-patterns/flyweight.md
       - 私有数据: structural-patterns/private-class-data.md
       - 代理: structural-patterns/proxy.md
-    - 行为模式:
+    - 行为设计模式:
       - 责任链: behavioral-patterns/chain-of-responsibility.md
       - 命令: behavioral-patterns/command.md
       - 解释器: behavioral-patterns/interpreter.md

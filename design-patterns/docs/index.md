@@ -1,103 +1,102 @@
-# Design Patterns
+# 设计模式
 
-In software engineering, a design pattern is a general repeatable solution to a commonly occurring problem in software design. A design pattern isn't a finished design that can be transformed directly into code. It is a description or template for how to solve a problem that can be used in many different situations. 
+在软件工程中, 设计模式是软件设计中常见问题的通用可重复解决方案. 设计模式不是可以直接转换为代码的完成设计. 它是用来解决可在许多不同情况下使用的问题的描述或模板.
 
-## Uses of Design Patterns
+## 设计模式的使用
 
-Design patterns can speed up the development process by providing tested, proven development paradigms. Effective software design requires considering issues that may not become visible until later in the implementation. Reusing design patterns helps to prevent subtle issues that can cause major problems and improves code readability for coders and architects familiar with the patterns.
+设计模式可以通过提供经过验证的经过验证的开发范例来加速开发过程. 有效的软件设计需要考虑在实施后期才可见的问题. 重用设计模式有助于防止可能导致重大问题的细微问题, 并提高熟悉模式的编码人员和架构师的代码可读性.
 
-Often, people only understand how to apply certain software design techniques to certain problems. These techniques are difficult to apply to a broader range of problems. Design patterns provide general solutions, documented in a format that doesn't require specifics tied to a particular problem.
+通常, 人们只了解如何将某些软件设计技术应用于某些问题. 这些技术难以应用于更广泛的问题. 设计模式提供了一般解决方案, 以不需要与特定问题相关的细节的格式记录.
 
-In addition, patterns allow developers to communicate using well-known, well understood names for software interactions. Common design patterns can be improved over time, making them more robust than ad-hoc designs.
+此外, 设计模式允许开发人员使用众所周知的, 易于理解的名称进行软件交互. 通用设计模式可以随着时间的推移而得到改进, 使其比特殊设计更加强大.
 
-## Creational design patterns
+## 创建型模式
 
-These design patterns are all about class instantiation. This pattern can be further divided into class-creation patterns and object-creational patterns. While class-creation patterns use inheritance effectively in the instantiation process, object-creation patterns use delegation effectively to get the job done.
-
+这些设计模式都是关于类实例化的. 这种模式可以进一步分为类创建模式和对象创建模式. 虽然类创建模式在实例化过程中有效地使用继承, 但是对象创建模式有效地使用委托来完成工作.
 
 *  [抽象工厂](./creational-patterns/abstract-factory.md)
-  > Creates an instance of several families of classes
+  > 创建相似类的实例
 *  [生成器](./creational-patterns/builder.md)
-  > Separates object construction from its representation
+  > 将对象构造与其表示分开
 *  [工厂方法](./creational-patterns/factory-method.md)
-  > Creates an instance of several derived classes
+  > 创建多个派生类的实例
 *  [对象池](./creational-patterns/object-pool.md)
-  > Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
+  > 通过回收不再使用的对象，避免昂贵的资源获取和释放
 *  [原型](./creational-patterns/prototype.md)
-  > A fully initialized instance to be copied or cloned
+  > 复制或克隆完全初始化的实例
 *  [单例](./creational-patterns/singleton.md)
-  > A class of which only a single instance can exist
+  > 只存在一个实例的类
 
-## Structural design patterns
+## 结构型模式
 
-These design patterns are all about Class and Object composition. Structural class-creation patterns use inheritance to compose interfaces. Structural object-patterns define ways to compose objects to obtain new functionality.
+这些设计模式都是关于类和对象的组合. 结构类创建模式使用继承来组成接口. 结构对象模式定义了组合对象以获得新功能的方法.
 
 * [适配器](./structural-patterns/adapter.md)
-  > Match interfaces of different classes
+  > 匹配不同类的接口
 * [桥接](./structural-patterns/bridge.md)
-  > Separates an object’s interface from its implementation
+  > 将对象的接口与其实现分开
 * [组合](./structural-patterns/composite.md)
-  > A tree structure of simple and composite objects
+  > 简单和复合对象的树结构
 * [装饰器](./structural-patterns/decorator.md)
-  > Add responsibilities to objects dynamically
+  > 动态地向对象添加职责
 * [外观](./structural-patterns/facade.md)
-  > A single class that represents an entire subsystem
+  > 表示整个子系统的单个类
 * [享元](./structural-patterns/flyweight.md)
-  > A fine-grained instance used for efficient sharing
+  > 用于高效共享的细粒度实例
 * [私有数据](./structural-patterns/private-class-data.md)
-  > Restricts accessor/mutator access
+  > 限制 访问者/mutator 访问
 * [代理](./structural-patterns/proxy.md)
-  > An object representing another object
+  > 表示另一个对象的对象
 
-## Behavioral design patterns
+## 行为设计模式
 
-These design patterns are all about Class's objects communication. Behavioral patterns are those patterns that are most specifically concerned with communication between objects.
+这些设计模式都是关于Class的对象通信. 行为模式是那些最特别关注对象之间通信的模式.
 
 * [责任链](./behavioral-patterns/chain-of-responsibility.md)
-  > A way of passing a request between a chain of objects
+  > 一种在一组对象之间传递请求的方法
 * [命令](./behavioral-patterns/command.md)
-  > Encapsulate a command request as an object
+  > 将命令请求封装为对象
 * [解释器](./behavioral-patterns/interpreter.md)
-  > A way to include language elements in a program
+  > 一种在程序中包含语言元素的方法
 * [迭代器](./behavioral-patterns/iterator.md)
-  > Sequentially access the elements of a collection
+  > 按顺序访问集合的元素
 * [中介者](./behavioral-patterns/mediator.md)
-  > Defines simplified communication between classes
+  > 定义类之间的简化通信
 * [备忘录](./behavioral-patterns/memento.md)
-  > Capture and restore an object's internal state
+  > 捕获并恢复对象的内部状态
 * [空对象](./behavioral-patterns/null-object.md)
-  > Designed to act as a default value of an object
+  > 旨在充当对象的默认值
 * [观察者](./behavioral-patterns/observer.md)
-  > A way of notifying change to a number of classes
+  > 一种通知更改多个类的方法
 * [状态](./behavioral-patterns/state.md)
   > Alter an object's behavior when its state changes
 * [策略](./behavioral-patterns/strategy.md)
-  > Encapsulates an algorithm inside a class
+  > 将算法封装在类中
 * [模板方法](./behavioral-patterns/template-method.md)
-  > Defer the exact steps of an algorithm to a subclass
+  > 将算法的确切步骤推迟到子类
 * [访问者](./behavioral-patterns/visitor.md)
-  > Defines a new operation to a class without change
+  > 为类定义新操作而不进行更改
 
-## Criticism
+## 批评
 
-The concept of design patterns has been criticized by some in the field of computer science.
+设计模式的概念受到计算机科学领域的一些人的批评.
 
-### Targets the wrong problem
+### 针对错误的问题
 
-The need for patterns results from using computer languages or techniques with insufficient abstraction ability. Under ideal factoring, a concept should not be copied, but merely referenced. But if something is referenced instead of copied, then there is no "pattern" to label and catalog. Paul Graham 
+对模式的需求源于使用计算机语言或抽象能力不足的技术. 在理想分解下, 不应复制概念, 而应仅参考. 但是如果引用某些东西而不是复制, 那么标签和目录就没有"模式".(Paul Graham)
 
-### writes in the essay Revenge of the Nerds.
+### writes in the essay Revenge of the Nerds
 
-Peter Norvig provides a similar argument. He demonstrates that 16 out of the 23 patterns in the Design Patterns book (which is primarily focused on C++) are simplified or eliminated (via direct language support) in Lisp or Dylan.
+Peter Norvig 提出了类似的论点. 他演示了设计模式书中23个模式中的16个(主要关注C++)在Lisp或Dylan中被简化或消除(通过直接语言支持).
 
-### Lacks formal foundations
+### 缺乏正式的基础
 
 The study of design patterns has been excessively ad hoc, and some have argued that the concept sorely needs to be put on a more formal footing. At OOPSLA 1999, the Gang of Four were (with their full cooperation) subjected to a show trial, in which they were "charged" with numerous crimes against computer science. They were "convicted" by ⅔ of the "jurors" who attended the trial.
 
-### Leads to inefficient solutions
+### 导致效率低下的解决方案
 
 The idea of a design pattern is an attempt to standardize what are already accepted best practices. In principle this might appear to be beneficial, but in practice it often results in the unnecessary duplication of code. It is almost always a more efficient solution to use a well-factored implementation rather than a "just barely good enough" design pattern.
 
-### Does not differ significantly from other abstractions
+### 与其他抽象没有显着差异
 
 Some authors allege that design patterns don't differ significantly from other forms of abstraction, and that the use of new terminology (borrowed from the architecture community) to describe existing phenomena in the field of programming is unnecessary. The Model-View-Controller paradigm is touted as an example of a "pattern" which predates the concept of "design patterns" by several years. It is further argued by some that the primary contribution of the Design Patterns community (and the Gang of Four book) was the use of Alexander's pattern language as a form of documentation; a practice which is often ignored in the literature.
