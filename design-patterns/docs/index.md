@@ -91,12 +91,12 @@ Peter Norvig 提出了类似的论点. 他演示了设计模式书中23个模式
 
 ### 缺乏正式的基础
 
-The study of design patterns has been excessively ad hoc, and some have argued that the concept sorely needs to be put on a more formal footing. At OOPSLA 1999, the Gang of Four were (with their full cooperation) subjected to a show trial, in which they were "charged" with numerous crimes against computer science. They were "convicted" by ⅔ of the "jurors" who attended the trial.
+对设计模式的研究过于临时， 有些人认为这个概念需要更加正式化。 在1999年的OOPSLA， 四人帮(在他们的全力合作下)进行了一次表演审判, 他们被指控犯有许多反对计算机科学的罪行. 他们被参加审判的"陪审员""定罪".
 
 ### 导致效率低下的解决方案
 
-The idea of a design pattern is an attempt to standardize what are already accepted best practices. In principle this might appear to be beneficial, but in practice it often results in the unnecessary duplication of code. It is almost always a more efficient solution to use a well-factored implementation rather than a "just barely good enough" design pattern.
+设计模式的想法是试图标准化已经接受的最佳实践. 原则上这似乎是有益的, 但在实践中它经常导致不必要的代码重复. 它几乎总是一个更有效的解决方案, 使用一个良好的因素实现, 而不是"只是勉强够用"的设计模式.
 
 ### 与其他抽象没有显着差异
 
-Some authors allege that design patterns don't differ significantly from other forms of abstraction, and that the use of new terminology (borrowed from the architecture community) to describe existing phenomena in the field of programming is unnecessary. The Model-View-Controller paradigm is touted as an example of a "pattern" which predates the concept of "design patterns" by several years. It is further argued by some that the primary contribution of the Design Patterns community (and the Gang of Four book) was the use of Alexander's pattern language as a form of documentation; a practice which is often ignored in the literature.
+一些作者声称设计模式与其他抽象形式没有显着差异, 并且使用新术语(从架构社区借用)来描述编程领域中的现有现象是不必要的. 模型 - 视图 - 控制器范例被吹捧为"模式"的一个例子, 它早于几年的"设计模式"概念. 一些人进一步认为, 设计模式社区(以及四人帮书)的主要贡献是使用亚历山大的模式语言作为一种文档形式; 这种做法在文献中经常被忽略.
