@@ -24,7 +24,7 @@ nav:
   - 设计模式:
     - 创建型模式:
       - 抽象工厂: creational-patterns/abstract-factory.md
-      - 生成器: creational-patterns/builder.md
+      - 建造者: creational-patterns/builder.md
       - 工厂方法: creational-patterns/factory-method.md
       - 对象池: creational-patterns/object-pool.md
       - 原型: creational-patterns/prototype.md
